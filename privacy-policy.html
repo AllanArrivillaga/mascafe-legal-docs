@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Política de Privacidad - MÁS CAFÉ</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap" rel="stylesheet">
     <style>
         * {
             margin: 0;
@@ -12,70 +13,79 @@
         }
         
         body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            line-height: 1.6;
-            color: #333;
-            background-color: #f5f5f5;
+            font-family: 'Montserrat', system-ui, -apple-system, 'Segoe UI', Roboto, Arial;
+            line-height: 1.7;
+            color: #222;
+            background-color: #f3efe8;
         }
         
         .container {
-            max-width: 900px;
-            margin: 0 auto;
-            padding: 20px;
-            background-color: #000;
-            color: #fff;
-            box-shadow: 0 2px 10px rgba(0,0,0,0.2);
+            max-width: 1100px;
+            margin: 36px auto;
+            padding: 32px;
+            background-color: #ffffff;
+            color: #222;
+            box-shadow: 0 10px 30px rgba(16,24,40,0.08);
+            border-radius: 10px;
         }
         
         header {
-            background: linear-gradient(135deg, #0d0600 0%, #2d1a0f 100%);
+            background-color: #000;
             color: white;
-            padding: 40px 20px;
-            text-align: center;
-            margin: -20px -20px 40px -20px;
+            padding: 20px 28px;
+            display: flex;
+            align-items: center;
+            gap: 18px;
+            margin: -32px -32px 24px -32px;
+            border-radius: 8px 8px 0 0;
         }
         
         h1 {
-            font-size: 2.5em;
-            margin-bottom: 10px;
-            color: #AF8C3F;
+            font-size: 1.5rem;
+            margin: 0;
+            color: #FFFFFF;
+            letter-spacing: 1.4px;
+            font-weight: 800;
+            text-transform: uppercase;
         }
         
         .subtitle {
-            font-size: 1.1em;
+            font-size: 0.95rem;
             opacity: 0.9;
+            color: #d8d6d2;
         }
         
         .last-update {
             display: inline-block;
-            background-color: #AF8C3F;
+            background-color: #B08B4B;
             color: white;
-            padding: 8px 16px;
-            border-radius: 20px;
-            font-size: 0.9em;
-            margin-top: 15px;
+            padding: 6px 12px;
+            border-radius: 16px;
+            font-size: 0.85rem;
+            margin-left: auto;
         }
         
         h2 {
-            color: #ffffff;
-            font-size: 1.8em;
-            margin-top: 30px;
-            margin-bottom: 15px;
-            padding-bottom: 10px;
-            border-bottom: 2px solid #AF8C3F;
+            color: #111111;
+            font-size: 1.15rem;
+            margin-top: 28px;
+            margin-bottom: 12px;
+            padding-bottom: 8px;
+            border-bottom: 2px solid #f0e8dc;
         }
         
         h3 {
-            color: #ffffff;
-            font-size: 1.3em;
-            margin-top: 20px;
-            margin-bottom: 10px;
+            color: #222222;
+            font-size: 1rem;
+            margin-top: 16px;
+            margin-bottom: 8px;
         }
         
         p {
             margin-bottom: 15px;
             text-align: justify;
-            color: #e6e6e6;
+            color: #444444;
+            font-size: 0.98rem;
         }
         
         ul, ol {
@@ -88,15 +98,15 @@
         }
         
         .highlight {
-            background-color: #111113;
-            padding: 20px;
-            border-left: 4px solid #AF8C3F;
-            margin: 20px 0;
+            background-color: #fff8ee;
+            padding: 18px;
+            border-left: 4px solid #B08B4B;
+            margin: 18px 0;
         }
         
         .contact-info {
-            background-color: #111111;
-            padding: 20px;
+            background-color: #faf6f0;
+            padding: 18px;
             border-radius: 8px;
             margin-top: 30px;
         }
@@ -110,47 +120,39 @@
         }
         
         .icon {
-            color: #AF8C3F;
-            margin-right: 5px;
+            color: #B08B4B;
+            margin-right: 6px;
         }
         
         footer {
             text-align: center;
             padding: 20px;
-            margin-top: 40px;
-            color: #cccccc;
+            margin-top: 28px;
+            color: #666666;
             font-size: 0.9em;
+            border-top: 1px solid #f0e8dc;
         }
 
         .logo {
             display: block;
-            margin: 0 auto 18px auto;
-            width: 120px;
+            width: 100px;
             height: auto;
         }
         
-        @media (max-width: 600px) {
-            .container {
-                padding: 15px;
-            }
-            
-            h1 {
-                font-size: 2em;
-            }
-            
-            h2 {
-                font-size: 1.5em;
-            }
+        @media (max-width: 760px) {
+            .container { margin: 18px 16px; padding: 18px; }
+            header { flex-direction: column; align-items: center; gap: 8px; }
+            .last-update { margin-left: 0; }
         }
     </style>
 </head>
 <body>
     <div class="container">
-        <img src="assets/images/LogoMasCafeWhite-03.png" alt="Más Café" class="logo" onerror="this.style.display='none'">
         <header>
-            <h1>☕ MÁS CAFÉ</h1>
-            <div class="subtitle">Política de Privacidad</div>
-            <div class="last-update">Última actualización: 21 de abril de 2026</div>
+            <img src="assets/images/LogoMasCafeWhite-03.png" alt="Más Café" class="logo" onerror="this.style.display='none'">
+            <h1>POLITICAS PRIVACIDAD</h1>
+            <div class="subtitle"></div>
+            <div class="last-update">Última actualización: 01 de septiembre de 2026</div>
         </header>
 
         <section>
